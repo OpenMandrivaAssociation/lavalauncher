@@ -1,6 +1,5 @@
-
 Name:     lavalauncher
-Version:  1.6
+Version:  2.0.0
 Release:  1
 Summary:  LavaLauncher is a simple launcher for Wayland
 License:  GPLv3
