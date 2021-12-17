@@ -1,11 +1,10 @@
 Name:     lavalauncher
-Version:  2.0.0
+Version:  2.1.1
 Release:  1
 Summary:  LavaLauncher is a simple launcher for Wayland
 License:  GPLv3
 URL:      https://git.sr.ht/~leon_plickat/lavalauncher
-# Upstrem tag new releases but not provide release archives or tarballs, so we need clone git and tar it.
-Source0:  %{name}-%{version}.tar.zst
+Source0:  https://git.sr.ht/~leon_plickat/lavalauncher/archive/v%{version}.tar.gz
 
 BuildRequires:  meson
 BuildRequires:  pkgconfig(cairo)
