@@ -17,6 +17,7 @@ BuildRequires:  pkgconfig(wayland-scanner)
 BuildRequires:  pkgconfig(wayland-server)
 BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:	pkgconfig(librsvg-2.0)
+BuildRequires:  pkgconfig(xkbcommon)
 
 %description
 LavaLauncher is a simple launcher for Wayland.
