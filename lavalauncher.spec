@@ -40,7 +40,7 @@ for details and an example.
 LavaLauncher has been successfully tested with sway and wayfire.
 
 %prep
-%autosetup -p1
+%autosetup -n %{name}-v%{version} -p1
 
 %build
 
